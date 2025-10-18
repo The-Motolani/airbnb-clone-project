@@ -162,9 +162,9 @@ Key aspects include:
 
 ## 5. Database Design
 
-Key Entities
-| Entity | Important Fields | Relationships |
+### Key Entities
 
+|Entity|Important Fields|Relationships|
 |------|----------------|----------------|
 |User|`id`, `name`, `email`, `password`, `role`|Can own multiple properties and make multiple bookings.|
 |Property|`id`, `owner_id`, `title`, `location`, `price`, `description`|Belongs to a user (owner) and can have multiple bookings and reviews.|
@@ -183,7 +183,6 @@ Key Entities
 
 |Feature|Description|
 |-------|-----------|
-
 |User Management|Handles user registration, authentication, and profiles. Supports secure login, logout, and password reset.|
 |Property Management|Allows hosts to add, edit, or remove properties and manage availability.|
 |Booking System|Enables users to search, select, and book properties. Handles date validation and prevents double booking.|
