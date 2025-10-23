@@ -4,7 +4,7 @@
 
 1. [Project Description](#0-project-description)
 
-2. [Tech Stack](#1-tech-stack)
+2. [Technology Stack](#1-technology-stack)
 
 3. [Best Practices](#2-best-practices)
 
@@ -35,7 +35,7 @@ The goal is to build a functional web application that allows users to:
 - View detailed property information  
 - Complete bookings
   
-## 1. Tech Stack
+## 1. Technology Stack
 
 | Layer | Technology |
 |-------|-------------|
